@@ -2,7 +2,7 @@
 #
 export SSTVDIR=/home/pi/SSTV
 cd $SSTVDIR
-
+while true {
 # Set some variables
 GPIO_PTT=7
 
@@ -67,4 +67,4 @@ sleep 170
  rm -f ${SSTVDIR}/image.jpg
 
  rm -f ${SSTVDIR}/image.wav
-
+}
